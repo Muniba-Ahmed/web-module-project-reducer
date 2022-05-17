@@ -13,7 +13,7 @@ function App() {
   const handleNumberClick = (number) => {
     dispatch(applyNumber(number));
   };
-  const handleOperation = () => {
+  const handleOperation = (operator) => {
     dispatch(changeOperation(operator));
   };
   console.log(state);
